@@ -11,33 +11,28 @@
 8. Kelly Wairimu - 23/06284  
 
 ## Project Description
-The School Bus Tracking System is a real-time solution designed to help schools, parents, and bus drivers effectively track school buses, manage student boarding and exit, estimate arrival times, and notify about delays. This system utilizes GPS location data, route optimization, and time estimation algorithms to provide a seamless and user-friendly experience.
+The School Bus Tracking System is a Java-based application designed to track the location of school buses, monitor students' boarding and exiting activities, and send notifications for delays. The system includes essential features like route management, real-time tracking, and estimation of arrival times.
 
 ## Features
-1. Track Bus Location: Real-time updates on the location of school buses.
-2. Estimate Arrival Times: Calculates expected arrival times at each stop.
-3. Student Management: Records boarding and exit of students.
-4. Delay Notifications: Alerts parents and staff about delays in schedule.
-5. Generate Reports: Provides reports for routes and bus performance.
+1. Bus Location Tracking: Tracks the location of school buses in real time.
+2. Student Boarding/Exit Tracking: Monitors when students board or exit the bus.
+3. Delay Notifications: Sends notifications if a bus is delayed.
+4. Route Reports: Generates reports of bus routes.
+5. Estimated Arrival Time: Calculates the estimated time of arrival based on bus location and traffic.
 
 
-## Technical Details
+## Installation 
+**Clone the repository to your local machine, open a terminal and run:**
+-git clone https://github.com/LeviniaK/SchoolBusTrackingSystem.git
 
-### Core Components
-- Bus: Manages bus details such as ID, driver name, assigned route, and current location.
-- Student: Handles student details and their associated bus routes.
-- Route: Manages stops, schedules, and distance calculations.
-- Location: Handles GPS coordinates and timestamp for tracking.
+**Navigate to the project directory in your terminal and compile the Java files:**
+-cd SchoolBusTrackingSystem
+javac -d out src/src/src/*.java
 
-### Implementation Details
-- Real-time data handling with simulated GPS coordinates.
-- Time estimation algorithms for calculating arrival times.
-- Multiple array manipulations for route management and student tracking.
-- Error handling to manage unexpected scenarios like GPS failures.
+**Run the program, use the following command:### Pre-requisites**
+java -cp out src.src.src.SchoolBusTrackingSystem
 
-## Installation and Usage
-
-### Pre-requisites
+**Requirements.**
 1. Java Development Kit(JDK) 17
 2. Vs Code
 3. JUnit 4.13.2 for testing.
