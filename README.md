@@ -27,10 +27,10 @@ The School Bus Tracking System is a Java-based application designed to track the
 
 **Navigate to the project directory in your terminal and compile the Java files:**
 -cd SchoolBusTrackingSystem
-javac -d out src/src/src/*.java
+-javac -d out src/src/src/*.java
 
-**Run the program, use the following command:### Pre-requisites**
-java -cp out src.src.src.SchoolBusTrackingSystem
+**Run the program, use the following command:### 
+-java -cp out src.src.src.SchoolBusTrackingSystem
 
 **Requirements.**
 1. Java Development Kit(JDK) 17
